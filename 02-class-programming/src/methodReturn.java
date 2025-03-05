@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class methodReturn {
 
-    public static void main(String[] args){
+    public static void main(String[] arg){
 
         Scanner input = new Scanner(System.in);
         methodReturn retuningSmt = new methodReturn();
