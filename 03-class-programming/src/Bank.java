@@ -5,14 +5,17 @@ public class Bank {
     double balance;
 
     public static void main(String[] args){
-        Bank bankAccount1 = new Bank(); // declaring an object BankAccount1, of type Bank
+        // declaring an object BankAccount1, of type Bank
+        Bank bankAccount1 = new Bank(); // the new bank - calling the Bank() constructor to build the bankAccount object in memory
+
+        //initialising the fields in the bankAccount1 object with starting values
         bankAccount1.name = "Liam Lee";
         bankAccount1.accountNum = "187290GHU";
         bankAccount1.balance = 6000.0;
 
         double depositAmount = 3000.0;
         //deposit and withdraw
-        bankAccount1.balance += depositAmount;
+        bankAccount1.balance += depositAmount; //using the dot product with the fields in the bankAccount object in assignments stmts
 
 
         //withdraw
@@ -27,3 +30,10 @@ public class Bank {
 
     }
 }
+
+/*
+constructors
+- default
+- parameters
+- Overloading
+ */

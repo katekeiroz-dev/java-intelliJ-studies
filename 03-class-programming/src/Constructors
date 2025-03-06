@@ -1,0 +1,86 @@
+In Java, a constructor is a special type of method used to initialize objects.
+It is automatically called when an object of a class is created.
+Constructors have the same name as the class and do not have a return type (not even void).
+Their main purpose is to set initial values for object attributes.
+
+
+Types of Constructors in Java
+Default Constructor (No-Argument Constructor)
+
+A constructor that takes no arguments and initializes the object with default values.
+If no constructor is defined in a class, Java automatically provides a default constructor.
+
+class Car {
+    String brand;
+
+    // Default Constructor
+    Car() {
+        brand = "Unknown";
+        System.out.println("Car object created!");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Car myCar = new Car();  // Default constructor is called
+        System.out.println(myCar.brand);  // Output: Unknown
+    }
+}
+
+
+---
+Parameterized Constructor
+
+A constructor that takes arguments to initialize an object with specific values.
+
+class Car {
+    String brand;
+
+    // Parameterized Constructor
+    Car(String carBrand) {
+        brand = carBrand;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Car myCar = new Car("Toyota");  // Constructor with argument
+        System.out.println(myCar.brand);  // Output: Toyota
+    }
+}
+
+
+---
+Copy Constructor (Not built-in like in C++, but can be manually defined)
+
+Used to create a new object by copying the values from an existing object
+
+class Car {
+    String brand;
+
+    // Parameterized Constructor
+    Car(String carBrand) {
+        brand = carBrand;
+    }
+
+    // Copy Constructor
+    Car(Car obj) {
+        this.brand = obj.brand;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Car car1 = new Car("Honda");
+        Car car2 = new Car(car1);  // Copy constructor is used
+        System.out.println(car2.brand);  // Output: Honda
+    }
+}
+
+--
+Key Characteristics of Constructors
+A constructor must have the same name as the class.
+It cannot have a return type (not even void).
+It is automatically invoked when an object is created.
+If no constructor is defined, Java provides a default constructor.
+Constructors can be overloaded (multiple constructors in the same class with different parameters).
