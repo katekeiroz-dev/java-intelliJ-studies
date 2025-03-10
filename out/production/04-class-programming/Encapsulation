@@ -1,0 +1,16 @@
+Encapsulation (data hiding) - it is fundamental object oriented concept
+Encapsulation in Java – A Detailed Explanation
+What is Encapsulation?
+Encapsulation is one of the fundamental concepts of Object-Oriented Programming (OOP).
+It refers to the bundling of data (variables) and methods (functions) that operate on the data into a single unit,
+typically a class. Encapsulation restricts direct access to some of the object's components, which helps in data hiding and protects the integrity of the data.
+
+Encapsulation is implemented in Java using access modifiers (private, protected, public, and default) to control the visibility of class members.
+
+Key Principles of Encapsulation
+Declare the class variables (fields) as private – This ensures that the data cannot be accessed directly from outside the class.
+Provide public getter and setter methods – These methods allow controlled access to private fields.
+Encapsulation improves data security – Since data is hidden, it prevents accidental modifications.
+Encapsulation supports maintainability and flexibility – Internal implementation can be changed without affecting external code.
+
+

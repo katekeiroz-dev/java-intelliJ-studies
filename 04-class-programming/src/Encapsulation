@@ -1,0 +1,40 @@
+Encapsulation (data hiding) - it is fundamental object oriented concept
+Encapsulation in Java – A Detailed Explanation
+What is Encapsulation?
+Encapsulation is one of the fundamental concepts of Object-Oriented Programming (OOP).
+It refers to the bundling of data (variables) and methods (functions) that operate on the data into a single unit,
+typically a class. Encapsulation restricts direct access to some of the object's components, which helps in data hiding and protects the integrity of the data.
+
+Encapsulation is implemented in Java using access modifiers (private, protected, public, and default) to control the visibility of class members.
+
+Key Principles of Encapsulation
+Declare the class variables (fields) as private – This ensures that the data cannot be accessed directly from outside the class.
+Provide public getter and setter methods – These methods allow controlled access to private fields.
+Encapsulation improves data security – Since data is hidden, it prevents accidental modifications.
+Encapsulation supports maintainability and flexibility – Internal implementation can be changed without affecting external code.
+
+
+Breaking Down the Example
+The name and age fields are declared as private, ensuring that they cannot be accessed directly from outside the Person class.
+Public getter methods (getName() and getAge()) allow reading the private fields.
+Public setter methods (setName() and setAge()) allow modifying the private fields but include validation to maintain data integrity.
+The setAge() method prevents setting an invalid age (negative values), demonstrating how encapsulation enforces business rules.
+Advantages of Encapsulation
+Data Hiding – Restricts direct access to sensitive data and protects it from unintended modifications.
+Better Control – Allows validation logic inside setter methods before modifying values.
+Improved Maintainability – Internal implementation can change without affecting external code.
+Increased Flexibility and Modularity – Changes in one part of the code don't affect other parts significantly.
+Enhances Reusability – Encapsulated classes can be easily reused in different projects.
+Encapsulation vs. Other OOP Principles
+Encapsulation vs. Abstraction
+
+Encapsulation is about hiding the data and restricting direct access.
+Abstraction is about hiding implementation details and showing only essential features.
+Encapsulation vs. Inheritance
+
+Encapsulation ensures data protection inside a class.
+Inheritance allows a class to acquire properties and behavior from another class.
+Conclusion
+Encapsulation is a core principle of OOP that ensures data security, maintainability, and modularity in Java applications.
+By using private fields with public getters and setters, we can control access to data while enforcing business logic and validation rules.
+It is widely used in real-world applications such as banking systems, e-commerce platforms, and enterprise software.

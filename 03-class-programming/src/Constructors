@@ -51,7 +51,7 @@ public class Main {
 
 
 ---
-Copy Constructor (Not built-in like in C++, but can be manually defined)
+Copy Constructor/overloading (Not built-in like in C++, but can be manually defined)
 
 Used to create a new object by copying the values from an existing object
 
