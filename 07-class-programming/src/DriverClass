@@ -1,0 +1,28 @@
+Driver Class in a Java Program
+A driver class in Java refers to a class that contains the main() method and is responsible for starting the execution of a program.
+It serves as the entry point of the application and is used to test and run other classes.
+
+Best Practices for a Driver Class
+*  Keep the driver class separate from the logic classes.
+*  Only use the main() method for initiating objects and calling methods.
+*  Keep it clean—avoid putting too much logic in the driver class.
+
+
+Key Features of a Driver Class
+Contains the main() Method
+
+Every Java program must have a main() method where execution starts.
+The main() method signature:
+
+
+public static void main(String[] args)
+
+
+
+Creates and Uses Objects of Other Classes
+
+The driver class usually creates instances of other classes and calls their methods.
+Handles Input and Output
+
+Often, it interacts with the user by printing output and reading input.
+

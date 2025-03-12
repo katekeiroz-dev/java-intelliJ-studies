@@ -1,0 +1,14 @@
+Arrays can store any type of data
+
+1. array of primitives - int
+2. array of objects - String
+3.Array of objects - Product
+
+
+1 - Primitive types:
+//when have square brackets are primatives arrays, made by java
+int numbers[] = new int[10]
+byte smallNumbers[] = new byte[4]
+char characteres[] = new char[26]
+
+3.Array of objects - Product
