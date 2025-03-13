@@ -26,3 +26,6 @@ Handles Input and Output
 
 Often, it interacts with the user by printing output and reading input.
 
+* It brings the program together - typically
+-presents the user a list of what can be done
+- guides the user through menu and call the appropriate code to implement what user choose

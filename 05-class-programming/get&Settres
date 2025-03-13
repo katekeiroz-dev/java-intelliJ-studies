@@ -9,3 +9,11 @@ Setters
 - overwrite the value, or change it, uptade it
 - expect pass parameters (piece of information )
 - has the type void because does not return anything
+
+
+toString :
+
+- just represents all information in some sort of user friendly
+- return string
+
+
