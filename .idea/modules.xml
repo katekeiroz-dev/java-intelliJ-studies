@@ -6,8 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/03-class-programming/03-class-programming.iml" filepath="$PROJECT_DIR$/03-class-programming/03-class-programming.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-class-programming/04-class-programming.iml" filepath="$PROJECT_DIR$/04-class-programming/04-class-programming.iml" />
       <module fileurl="file://$PROJECT_DIR$/05-class-programming/05-class-programming.iml" filepath="$PROJECT_DIR$/05-class-programming/05-class-programming.iml" />
-      <module fileurl="file://$PROJECT_DIR$/06-class-programming/06-class-programming.iml" filepath="$PROJECT_DIR$/06-class-programming/06-class-programming.iml" />
-      <module fileurl="file://$PROJECT_DIR$/07-class-programming/07-class-programming.iml" filepath="$PROJECT_DIR$/07-class-programming/07-class-programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-class-programming/06-class-programming.iml" filepath="$PROJECT_DIR$/07-class-programming/06-class-programming.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-intelliJ.iml" filepath="$PROJECT_DIR$/java-intelliJ.iml" />
     </modules>
   </component>

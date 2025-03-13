@@ -1,0 +1,11 @@
+Getters ( Accessor Methods )
+
+- get the data that has been stored
+- has the type returns and always return the same datatype that was stored
+
+
+Setters
+- set the information of the data object
+- overwrite the value, or change it, uptade it
+- expect pass parameters (piece of information )
+- has the type void because does not return anything
