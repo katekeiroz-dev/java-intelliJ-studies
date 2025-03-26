@@ -12,3 +12,42 @@ byte smallNumbers[] = new byte[4]
 char characteres[] = new char[26]
 
 3.Array of objects - Product
+
+
+ primitive array in Java is an array that holds elements of a primitive data type such as int,
+  double, char, etc. Unlike arrays of objects, primitive arrays store values directly in memory rather than references to objects.
+
+Example of a Primitive Array in Java
+java
+Copy
+Edit
+public class PrimitiveArrayExample {
+    public static void main(String[] args) {
+        int[] numbers = new int[5]; // Array of integers with size 5
+        numbers[0] = 10;
+        numbers[1] = 20;
+        numbers[2] = 30;
+
+        // Iterating through the array
+        for (int num : numbers) {
+            System.out.println(num);
+        }
+    }
+}
+Key Characteristics of Primitive Arrays
+Fixed Size: The size is defined at the time of creation and cannot be changed.
+
+Memory Efficient: Stores values directly, making them more memory-efficient than object arrays.
+
+Default Values: When declared, elements are initialized to default values:
+
+int, short, byte, long → 0
+
+float, double → 0.0
+
+char → '\u0000' (null character)
+
+boolean → false
+
+Faster Access: Since there is no need to dereference objects, primitive arrays offer better performance than arrays
+of objects.
